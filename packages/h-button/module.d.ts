@@ -1,6 +1,8 @@
 import { ButtonType, ButtonSize } from "antd/lib/button";
+import { BaseButtonProps } from "antd/lib/button/button";
+import * as React from "react";
 
-declare interface IPropsInterface {
+declare interface IPropsInterface extends BaseButtonProps<any> {
     href?: string,
     htmlType?: string,
     loading?: boolean,
@@ -13,14 +15,16 @@ declare interface IPropsInterface {
 }
 declare class DefaultProps implements IPropsInterface {
     type: ButtonType;
-    htmlType: ButtonSize;
-    size: string;
+    htmlType: string;
+    size: ButtonSize;
     disabled: boolean;
     onClick?: (event?: React.MouseEvent<any>) => void
 }
 
-import HButton from './src/index';
-
-export type HButton = typeof HButton;
-
-export default HButton;
+export default class HButton extends React.Component<IPropsInterface, any> {
+    static defaultProps: any;
+    constructor(props: IPropsInterface);
+    componentDidMount(): void;
+    handleClick: (e: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>) => void;
+    render(): JSX.Element;
+}

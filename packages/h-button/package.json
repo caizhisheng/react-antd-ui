@@ -19,5 +19,5 @@
     "url": "https://github.com/caizhisheng/react-antd-ui/issues"
   },
   "homepage": "https://github.com/caizhisheng/react-antd-ui#readme",
-  "types": "./module.ts"
+  "types": "./module.d.ts"
 }
