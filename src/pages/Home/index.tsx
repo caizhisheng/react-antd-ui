@@ -17,7 +17,6 @@ class Home extends React.Component<any, any> {
     render() {
         return (
             <div className="homepage">
-            212121
                 <HButtonGroup>
                     <HButton size="large" text="保存1" icon="warning" />
                     <HButton type="dashed" size="large" text="保存2" icon="search" />
