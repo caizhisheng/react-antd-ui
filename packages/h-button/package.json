@@ -2,7 +2,7 @@
   "name": "h-button",
   "version": "0.0.4",
   "description": "按钮组件",
-  "main": "index.js",
+  "main": "../h-button/src/index.ts",
   "scripts": {
     "test": "test"
   },
@@ -19,5 +19,5 @@
     "url": "https://github.com/caizhisheng/react-antd-ui/issues"
   },
   "homepage": "https://github.com/caizhisheng/react-antd-ui#readme",
-  "types": "./module.d.ts"
+  "types": "./module.ts"
 }
