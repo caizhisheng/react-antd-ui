@@ -1,6 +1,6 @@
 {
   "name": "h-button",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "按钮组件",
   "main": "index.js",
   "scripts": {
