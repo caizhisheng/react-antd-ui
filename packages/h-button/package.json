@@ -1,6 +1,6 @@
 {
   "name": "h-button",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "按钮组件",
   "main": "../h-button/src/index.ts",
   "scripts": {
