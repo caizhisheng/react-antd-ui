@@ -1,0 +1,22 @@
+{
+  "name": "h-button",
+  "version": "1.0.0",
+  "description": "按钮组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/caizhisheng/react-antd-ui.git"
+  },
+  "keywords": [
+    "button"
+  ],
+  "author": "mike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caizhisheng/react-antd-ui/issues"
+  },
+  "homepage": "https://github.com/caizhisheng/react-antd-ui#readme"
+}
