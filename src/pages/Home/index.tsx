@@ -1,6 +1,7 @@
 import * as React from 'react';
-import HButton from '../../components/h-button/src';
+// import HButton from '../../components/h-button/src';
 import HButtonGroup from '../../components/h-button/src/button-group';
+import HButton from 'h-button';
 
 // 工作台demo https://preview.pro.ant.design/#/dashboard/workplace
 class Home extends React.Component<any, any> {
@@ -16,6 +17,7 @@ class Home extends React.Component<any, any> {
     render() {
         return (
             <div className="homepage">
+            212121
                 <HButtonGroup>
                     <HButton size="large" text="保存1" icon="warning" />
                     <HButton type="dashed" size="large" text="保存2" icon="search" />
