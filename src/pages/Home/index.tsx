@@ -1,7 +1,7 @@
 import * as React from 'react';
 import HButton from '../../components/h-button/src';
 import HButtonGroup from '../../components/h-button/src/button-group';
-// import { HButton } from 'h-button';
+// import * as  HButton from 'h-button';
 
 // 工作台demo https://preview.pro.ant.design/#/dashboard/workplace
 class Home extends React.Component<any, any> {
