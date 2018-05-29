@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/caizhisheng/react-antd-ui/issues"
   },
-  "homepage": "https://github.com/caizhisheng/react-antd-ui#readme"
+  "homepage": "https://github.com/caizhisheng/react-antd-ui#readme",
+  "types": "./module.d.ts"
 }
