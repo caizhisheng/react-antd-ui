@@ -1,6 +1,6 @@
 {
-  "name": "convenient",
-  "version": "1.0.0",
+  "name": "hui-admin",
+  "version": "1.0.6",
   "author": "mike-ccc",
   "dependencies": {
     "@types/antd": "^1.0.0",
@@ -134,5 +134,9 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "files": [
+    "dist",
+    "packages"
+  ]
 }

@@ -3,9 +3,6 @@
   "version": "0.0.7",
   "description": "按钮组件",
   "main": "../h-button/src/index.ts",
-  "scripts": {
-    "test": "test"
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/caizhisheng/react-antd-ui.git"
